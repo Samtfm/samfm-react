@@ -1,9 +1,22 @@
 import React from 'react';
+import ZoomableImage from './ZoomableImage';
+import './Gallery.css';
 
-function Gallery() {
+const Gallery = ({pictures}) => {
   return (
     <section>
-      Gallery
+      <ul className={'Gallery-photo-grid'}>
+        {pictures.map(picture => (
+          <li>
+            <ZoomableImage
+              title={picture.title}
+              url={picture.url}
+              width={160}
+              height={100}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

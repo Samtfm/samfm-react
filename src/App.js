@@ -7,6 +7,7 @@ import {
 import Nav from './Nav'
 import Gallery from './Gallery'
 import Home from './Home'
+import pictures from './pictures'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <div> Projects </div>
           </Route>
           <Route path="/gallery">
-            <Gallery />
+            <Gallery pictures={pictures}/>
           </Route>
           <Route path="/">
             <Home />

@@ -1,0 +1,10 @@
+.Gallery-photo-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery-photo-grid li {
+  margin: 5px;
+}
