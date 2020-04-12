@@ -1,10 +1,12 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
 import Nav from './Nav'
+import Gallery from './Gallery'
+import Home from './Home'
 
 function App() {
   return (
@@ -18,10 +20,10 @@ function App() {
             <div> Projects </div>
           </Route>
           <Route path="/gallery">
-            <div> gallery </div>
+            <Gallery />
           </Route>
           <Route path="/">
-            <div> home </div>
+            <Home />
           </Route>
         </Switch>
       </div>
