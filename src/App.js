@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,8 +14,8 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <div> About </div>
+          <Route path="/projects">
+            <div> Projects </div>
           </Route>
           <Route path="/gallery">
             <div> gallery </div>

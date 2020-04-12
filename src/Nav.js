@@ -6,13 +6,13 @@ import {
 
 function Nav() {
   return (
-      <nav class='Nav-links'>
-        <ul>
+      <nav>
+        <ul class='Nav-links'>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
             <Link to="/gallery">Gallery</Link>

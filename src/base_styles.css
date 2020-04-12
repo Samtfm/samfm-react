@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background: #ebf6f3;
+  color: #2e2e2e;
+  text-align: center;
+  font-weight: 500;
+}
+
+span {
+  word-wrap: normal;
+}
+
+h1 {
+  color: #7d7d7d;
+  max-width: 385px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+h2 {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.accent {
+  color: #4c9d82;
+}
+
+a {
+  text-decoration: none;
+  color: #136af0;
+}
