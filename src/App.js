@@ -12,7 +12,7 @@ import pictures from './pictures'
 function App() {
   return (
     <Router>
-      <Nav />
+      <br />
       <Switch>
         <Route path="/projects">
           <div> Projects </div>
