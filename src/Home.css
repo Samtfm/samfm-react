@@ -1,0 +1,25 @@
+.Home h1 {
+  margin-bottom: 16px;
+}
+
+.Home p {
+  margin-bottom: 16px;
+}
+
+.Home-heading-block {
+  margin-bottom: 64px;
+
+}
+.Home-body {
+  margin-bottom: 120px;
+
+}
+.Home-contact-button {
+    margin: 20px auto;
+    padding: 18px;
+    border: 1px solid #4c9d82;
+    color: #4c9d82;
+    border-radius: 21px;
+    font-size: 20px;
+    width: fit-content;
+}
