@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Samtfm.github.io/samfm-react",
+  "homepage": "https://Samtfm.github.io/",
   "name": "samfm-react",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

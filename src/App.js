@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
       <br />
+      <br />
       <Switch>
         <Route path="/projects">
           <div> Projects </div>
