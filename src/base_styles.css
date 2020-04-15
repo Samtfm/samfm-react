@@ -11,6 +11,11 @@ body {
   font-weight: 500;
 }
 
+body.no-scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
 span {
   word-wrap: normal;
 }

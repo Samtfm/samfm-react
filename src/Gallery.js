@@ -11,8 +11,6 @@ const Gallery = ({pictures}) => {
             <ZoomableImage
               title={picture.title}
               url={picture.url}
-              width={160}
-              height={100}
             />
           </li>
         ))}
