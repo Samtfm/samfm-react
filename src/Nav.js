@@ -12,7 +12,10 @@ function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery">Paintings</Link>
+          </li>
+          <li>
+            <Link to="/projects">Games</Link>
           </li>
         </ul>
       </nav>

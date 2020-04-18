@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Nav from './Nav'
 import Gallery from './Gallery'
+import Projects from './Projects'
 import Home from './Home'
 import pictures from './pictures'
 
@@ -15,7 +16,7 @@ function App() {
       <Nav />
       <Switch>
         <Route path="/projects">
-          <div> Projects </div>
+          <Projects />
         </Route>
         <Route path="/gallery">
           <Gallery pictures={pictures}/>

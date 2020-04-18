@@ -5,6 +5,7 @@ import './Gallery.css';
 const Gallery = ({pictures}) => {
   return (
     <section>
+      <h1>Imagery!</h1>
       <ul className={'Gallery-photo-grid'}>
         {pictures.map(picture => (
           <li>
