@@ -1,10 +1,25 @@
 .Gallery-photo-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  column-count: 3;
+  column-gap: 6px;
+  margin: 12px;
 }
 
-.Gallery-photo-grid li {
-  margin: 5px;
+@media only screen and (max-width: 600px) {
+  .Gallery-photo-grid {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Gallery-photo-grid {
+    column-count: 1;
+  }
+}
+
+
+.Gallery-photo-grid>li {
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 6px;
+  width: 100%;
 }

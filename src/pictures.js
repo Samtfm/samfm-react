@@ -1,31 +1,35 @@
 const pictures = [
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/350'
+    title: 'boot mushrooms',
+    url: 'https://i.imgur.com/9FVACQB.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/351'
+    title: 'candycap watercolor',
+    url: 'https://i.imgur.com/NxLwIem.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/352'
+    title: 'jellyfish bottle',
+    url: 'https://i.imgur.com/dnzL3v9.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/353'
+    title: 'orange swirls',
+    url: 'https://i.imgur.com/9ognnhx.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/354'
+    title: 'veins',
+    url: 'https://i.imgur.com/QpvEGxx.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/355'
+    title: 'sea turtle',
+    url: 'https://i.imgur.com/f5UKxNO.jpg'
+    },
+  {
+    title: 'rainy city',
+    url: 'https://i.imgur.com/ljaRskf.jpg'
   },
   {
-    title: 'test image',
-    url: 'https://placekitten.com/400/356'
+    title: 'sir cough syrup',
+    url: 'https://i.imgur.com/O09gWBb.jpg'
   },
 ]
 

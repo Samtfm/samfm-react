@@ -1,13 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import './ZoomableImage.css';
-const ZoomableImage = ({title, url, width, height}) => {
+import { enableScroll, disableScroll } from './util/scroll'
+
+
+const ZoomableImage = ({title, url}) => {
   const [expanded, setExpanded] = useState(false)
+  const expand = () => {
+    setExpanded(true);
+    disableScroll();
+  }
+  const dismiss = () => {
+    setExpanded(false);
+    enableScroll();
+  }
+
   return (
     <div>
       {expanded && (
         <div
           className={'ZoomableImage-overlay'}
-          onClick={() => setExpanded(false)}
+          onClick={dismiss}
         >
           <img
             src={url}
@@ -15,7 +27,12 @@ const ZoomableImage = ({title, url, width, height}) => {
           />
         </div>
       )}
-      <img src={url} alt={title} width={width} onClick={() => setExpanded(true)} />
+      <img
+        className={'ZoomableImage-thumbnail'}
+        src={url}
+        alt={title}
+        onClick={expand}
+      />
     </div>
   );
 }
