@@ -16,13 +16,13 @@ function Home() {
 
         <Link to="/gallery">
           <div className="Home-flag">
-            <img src={'https://placekitten.com/650/450'}/>
+            <img src={'https://i.imgur.com/9ognnhx.jpg'}/>
             <h1>PAINTINGS</h1>
           </div>
         </Link>
         <Link to="/projects">
           <div className="Home-flag">
-            <img src={'https://placekitten.com/800/500'}/>
+            <img src={'http://ludumdare.com/compo/wp-content/compo2//570486/113483-shot0-1472518702.png-eq-900-500.jpg'}/>
             <h1>GAMES</h1>
           </div>
         </Link>
