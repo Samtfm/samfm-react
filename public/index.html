@@ -26,10 +26,13 @@
     -->
     <title>Sam Faber-Manning</title>
     <script type="text/javascript">
-      var arr = document.title.split('')
-      var shuffled = []
-      while (arr.length ) {shuffled.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0])}
-      document.title=shuffled.join('')
+      function shuffle(str) {
+        var arr = str.split('')
+        var shuffled = []
+        while (arr.length ) {shuffled.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0])}
+        return shuffled.join('');
+      }
+      document.title = `${shuffle('Sam')} ${shuffle('Faber')}-${shuffle('Manning')}`
     </script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
   </head>
