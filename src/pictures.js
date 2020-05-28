@@ -1,5 +1,9 @@
 const pictures = [
   {
+    title: 'transcendentals',
+    url: 'https://i.imgur.com/M7CbTqw.jpg',
+  },
+  {
     title: 'boot mushrooms',
     url: 'https://i.imgur.com/9FVACQB.jpg'
   },
