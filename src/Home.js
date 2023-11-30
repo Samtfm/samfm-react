@@ -8,7 +8,7 @@ function Home() {
   return (
     <section className="Home">
       <section className="Home-heading-block">
-        <h1>Hi! You've reached <span class='accent'>SamFM</span></h1>
+        <h1>Hi! You've reached <span class='accent'>Sam</span></h1>
         <p>Artist, Software Developer, Friend</p>
       </section>
       <section>
